@@ -6,19 +6,51 @@
     <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
-    <header>
-      <img src="./images/logo.svg" alt="VЁRSTKA">
+    <header class="content-section content-section_theme_dark header">
+      <a href="#" class="header__logo">
+        <img src="./images/logo.svg" alt="VЁRSTKA" class="header__logo-image">
+      </a>
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-item header__menu-item_active">
+            <a href="#" class="header__menu-link">Главная</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">О нас</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-      <section class="cover"></section>
-      <section class="intro"></section>
-      <section class="reasons"></section>
-      <section class="how-to"></section>
+      <section class="content-section content-section_theme_dark cover">
+        <h1 class="cover__title">
+          <span class="accent-span">С</span>
+          <span class="accent-span text-center">чистого</span>
+          <span class="accent-span text-right">листа</span>
+        </h1>
+      </section>
+      <section class="content-section content-section_theme_dark intro">
+        <header class="intro__heading">
+          <p class="intro__title">8 способов борьбы со страхом чистого листа</p>
+          <time class="intro__date" datetime="2022-06-05">05.06.2022 г.</time>
+        </header>
+      </section>
+      <section class="content-section content-section_theme_bright reasons"></section>
+      <section class="content-section content-section_theme_dark how-to"></section>
     </main>
-    <footer>
-      <span>© VЁRSTKA</span>
-      <span>ВК</span>
-      <span>Ютуб</span>
+    <footer class="content-section content-section_theme_dark footer">
+      <p class="footer__copy">© VЁRSTKA</p>
+      <ul class="footer__links">
+        <li class="footer__links-item">
+          <a href="#" class="footer__links-link">ВК</a>
+        </li>
+        <li class="footer__links-item">
+          <a href="#" class="footer__links-link">Ютуб</a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
